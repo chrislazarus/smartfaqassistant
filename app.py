@@ -5,7 +5,7 @@ from openai.embeddings_utils import cosine_similarity
 import openai
 
 # Set your OpenAI API key
-openai.api_key = st.secrets["TrainingOpenAIKey"] 
+openai.api_key = st.secrets["mykey"] 
 
 df = pd.read_csv("qa_dataset_with_embeddings.csv")
 
